@@ -1,0 +1,14 @@
+[
+  {
+    "name": "IMDb",
+    "summary": "IMDb is an online database of information related to films, television programs, home videos, video games, and streaming content online – including cast, production crew and personal biographies, plot summaries, trivia, ratings, and fan and critical reviews.",
+    "websiteUrl": "https://www.imdb.com",
+    "wikiUrl": "https://en.wikipedia.org/wiki/IMDb"
+  },
+  {
+    "name": "Rotten Tomatoes",
+    "summary": "Rotten Tomatoes is an American review-aggregation website for film and television. The company was launched in August 1998 by three undergraduate students at the University of California, Berkeley: Senh Duong, Patrick Y. Lee, and Stephen Wang.",
+    "websiteUrl": "https://www.rottentomatoes.com/",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Rotten_Tomatoes"
+  }
+]
