@@ -4,10 +4,15 @@ import image from "../../Assets/video.svg";
 import downArrow from "../../Assets/downArrow.png";
 import upArrow from "../../Assets/upArrow.jpg";
 
+// Movie-box: component -- main component which renders image on the left
+// and movie name with description and cast.
+
 const MovieBox = (movie) => {
+  //using useState hook to toggle the button state for showing movie cast.
   const [arrow, setArrow] = useState(false);
   const arrowSrc = arrow ? upArrow : downArrow;
 
+  // function to redirect user to IMDb page when clicked on button.
   const IMDBbutton = (url) => {
     window.location.href = url;
   };
@@ -29,7 +34,7 @@ const MovieBox = (movie) => {
             onClick={() => {
               arrow === true ? setArrow(false) : setArrow(true);
             }}
-            class="buttonImage"
+            className="buttonImage"
             src={arrowSrc}
             alt="arrow"
           />
@@ -44,6 +49,9 @@ const MovieBox = (movie) => {
                 </p>
               </div>
             ))}
+            <a className="seeFullCast" href={movie.movie.fullCastUrl}>
+              See Full Cast...
+            </a>
           </div>
         )}
       </div>

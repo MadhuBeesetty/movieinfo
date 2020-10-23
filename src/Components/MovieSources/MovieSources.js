@@ -1,32 +1,35 @@
 import React from "react";
 import "./MovieSources.css";
-const movies = require("../../json/movie_sources.json");
 
-const redirect = (url) => {
-  window.location.href = url;
-};
+// movieSources -- component : individual movie source box which has source description
+// and buttons to redirect to source website and source wikipedia page.
 
-const MovieSources = () => {
+const MovieSources = (source) => {
+  // A redirect fucntion to redirect user to third party pages
+  const redirect = (url) => {
+    window.location.href = url;
+  };
+
   return (
-    <div className="movieSourceAllign">
-      {movies.map((eachMovie, i) => (
-        <div className="movieSourceMovieList" key={i}>
-          <p className="reviewName">{eachMovie.name}</p>
-          <p className="description">{eachMovie.summary}</p>
+    <div>
+      <div className="movieSourceLayout">
+        <div className="movieSourceMovieList">
+          <p className="reviewName">{source.name}</p>
+          <p className="description">{source.summary}</p>
           <button
             className="websitebutton"
-            onClick={() => redirect(eachMovie.websiteUrl)}
+            onClick={() => redirect(source.websiteUrl)}
           >
             WEBSITE
           </button>
           <button
             className="wikibutton"
-            onClick={() => redirect(eachMovie.wikiUrl)}
+            onClick={() => redirect(source.wikiUrl)}
           >
             WIKI
           </button>
         </div>
-      ))}
+      </div>
     </div>
   );
 };

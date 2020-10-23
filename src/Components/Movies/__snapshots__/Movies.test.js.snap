@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies component  should have multiple sub components in generated snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <div
+            class="MovieList"
+          >
+            <img
+              alt="movies logo"
+              class="imageDimentions"
+              src="video.svg"
+            />
+            <p
+              class="movieTitle"
+            >
+              Avengers: Endgame
+            </p>
+            <div
+              class="allignMovie"
+            >
+              <p
+                class="movieDescription"
+              >
+                After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.
+              </p>
+              <button
+                class="button"
+              >
+                IMDB
+              </button>
+              <img
+                alt="arrow"
+                class="buttonImage"
+                src="downArrow.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="MovieList"
+          >
+            <img
+              alt="movies logo"
+              class="imageDimentions"
+              src="video.svg"
+            />
+            <p
+              class="movieTitle"
+            >
+              Avengers: Infinity War
+            </p>
+            <div
+              class="allignMovie"
+            >
+              <p
+                class="movieDescription"
+              >
+                The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+              </p>
+              <button
+                class="button"
+              >
+                IMDB
+              </button>
+              <img
+                alt="arrow"
+                class="buttonImage"
+                src="downArrow.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="MovieList"
+          >
+            <img
+              alt="movies logo"
+              class="imageDimentions"
+              src="video.svg"
+            />
+            <p
+              class="movieTitle"
+            >
+              Avengers: Age of Ultron
+            </p>
+            <div
+              class="allignMovie"
+            >
+              <p
+                class="movieDescription"
+              >
+                When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.
+              </p>
+              <button
+                class="button"
+              >
+                IMDB
+              </button>
+              <img
+                alt="arrow"
+                class="buttonImage"
+                src="downArrow.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="MovieList"
+          >
+            <img
+              alt="movies logo"
+              class="imageDimentions"
+              src="video.svg"
+            />
+            <p
+              class="movieTitle"
+            >
+              The Avengers
+            </p>
+            <div
+              class="allignMovie"
+            >
+              <p
+                class="movieDescription"
+              >
+                Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+              </p>
+              <button
+                class="button"
+              >
+                IMDB
+              </button>
+              <img
+                alt="arrow"
+                class="buttonImage"
+                src="downArrow.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <div
+          class="MovieList"
+        >
+          <img
+            alt="movies logo"
+            class="imageDimentions"
+            src="video.svg"
+          />
+          <p
+            class="movieTitle"
+          >
+            Avengers: Endgame
+          </p>
+          <div
+            class="allignMovie"
+          >
+            <p
+              class="movieDescription"
+            >
+              After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.
+            </p>
+            <button
+              class="button"
+            >
+              IMDB
+            </button>
+            <img
+              alt="arrow"
+              class="buttonImage"
+              src="downArrow.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="MovieList"
+        >
+          <img
+            alt="movies logo"
+            class="imageDimentions"
+            src="video.svg"
+          />
+          <p
+            class="movieTitle"
+          >
+            Avengers: Infinity War
+          </p>
+          <div
+            class="allignMovie"
+          >
+            <p
+              class="movieDescription"
+            >
+              The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+            </p>
+            <button
+              class="button"
+            >
+              IMDB
+            </button>
+            <img
+              alt="arrow"
+              class="buttonImage"
+              src="downArrow.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="MovieList"
+        >
+          <img
+            alt="movies logo"
+            class="imageDimentions"
+            src="video.svg"
+          />
+          <p
+            class="movieTitle"
+          >
+            Avengers: Age of Ultron
+          </p>
+          <div
+            class="allignMovie"
+          >
+            <p
+              class="movieDescription"
+            >
+              When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.
+            </p>
+            <button
+              class="button"
+            >
+              IMDB
+            </button>
+            <img
+              alt="arrow"
+              class="buttonImage"
+              src="downArrow.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="MovieList"
+        >
+          <img
+            alt="movies logo"
+            class="imageDimentions"
+            src="video.svg"
+          />
+          <p
+            class="movieTitle"
+          >
+            The Avengers
+          </p>
+          <div
+            class="allignMovie"
+          >
+            <p
+              class="movieDescription"
+            >
+              Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+            </p>
+            <button
+              class="button"
+            >
+              IMDB
+            </button>
+            <img
+              alt="arrow"
+              class="buttonImage"
+              src="downArrow.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

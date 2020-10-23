@@ -1,26 +1,19 @@
-.movieSourceMovieList {
+.movieSourceLayout {
   border: 5px groove rgb(225, 225, 225);
   margin-right: 10px;
   box-sizing: border-box;
   border-radius: 5px;
-  padding: 10px;
-}
-
-.movieSourceAllign {
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 50px;
-  display: flex;
+  padding: 15px;
 }
 
 .wikibutton {
   background-color: white;
-  cursor: pointer;
   border-color: rgb(0, 49, 82);
   color: rgb(0, 49, 82);
   border-radius: 5px;
   height: 35px;
   width: 100px;
+  cursor: pointer;
   margin-left: 10px;
 }
 
